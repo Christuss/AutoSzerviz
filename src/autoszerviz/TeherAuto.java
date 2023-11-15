@@ -4,10 +4,13 @@
  */
 package autoszerviz;
 
+import java.util.Random;
+
 /**
  *
  * @author Kun-SzékelyBence(SZF
  */
-public class AutoSzerviz {
+public class TeherAuto extends Auto{
+    
     
 }

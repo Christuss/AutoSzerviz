@@ -8,6 +8,16 @@ package autoszerviz;
  *
  * @author Kun-SzékelyBence(SZF
  */
-public class AutoSzerviz {
+public class SzemelyAuto extends Auto{
+
+    public SzemelyAuto() {
+        super();
+    }
+
+    @Override
+    public void mozgas() {
+        this.allapot = allapot*0.97;
+    } 
+    
     
 }
