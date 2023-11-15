@@ -8,13 +8,13 @@ package autoszerviz;
  *
  * @author kunszekely.bence
  */
-public class AutoSzerviz {
+public class Program {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Autoszerviz");
+        
     }
     
 }
