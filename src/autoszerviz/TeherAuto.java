@@ -11,6 +11,15 @@ import java.util.Random;
  * @author Kun-SzékelyBence(SZF
  */
 public class TeherAuto extends Auto{
+    Random rnd = new Random();
+    public TeherAuto() {
+        super();
+    }
     
+    @Override
+    public void mozgas() {
+        this.allapot = allapot*0.95;
+        
+    } 
     
 }
