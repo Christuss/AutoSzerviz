@@ -26,4 +26,11 @@ public class Szerviz {
         }
     }
     
+    public Auto kivesz(int sorszám){
+        return autok[sorszám];
+    }
+    
+    public void betesz(Auto auto){
+        
+    }
 }
