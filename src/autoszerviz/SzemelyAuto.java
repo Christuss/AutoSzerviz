@@ -14,4 +14,9 @@ public class SzemelyAuto extends Auto{
     public void mozgas(){
         allapot = allapot * 0.97;
     };
+
+    public void setAllapot(double allapot) {
+        this.allapot = allapot;
+    }
+    
 }

@@ -24,4 +24,8 @@ public class TeherAuto extends Auto{
         }
         
     };
+
+    public void setAllapot(double allapot) {
+        this.allapot = allapot;
+    }
 }
