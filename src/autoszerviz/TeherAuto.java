@@ -19,7 +19,10 @@ public class TeherAuto extends Auto{
     @Override
     public void mozgas() {
         this.allapot = allapot*0.95;
-        
+        int a = rnd.nextInt(10)+1;
+        if (a == 1) {
+            this.allapot = allapot*0.8; 
+        }
     } 
     
 }

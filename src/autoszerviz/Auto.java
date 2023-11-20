@@ -19,8 +19,6 @@ public abstract class Auto {
         this.allapot = allapot;
     }
     
-    public void mozgas(){
-        this.allapot = allapot*0.99;
-    }
+    public abstract void mozgas();
     
 }
