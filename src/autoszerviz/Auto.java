@@ -9,7 +9,7 @@ package autoszerviz;
  * @author Kun-SzékelyBence(SZF
  */
 public abstract class Auto {
-    double allapot;
+    protected double allapot;
     
     public double getAllapot() {
         return allapot;

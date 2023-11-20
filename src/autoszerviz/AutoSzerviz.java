@@ -9,5 +9,5 @@ package autoszerviz;
  * @author Kun-SzékelyBence(SZF
  */
 public class AutoSzerviz {
-    
+
 }
